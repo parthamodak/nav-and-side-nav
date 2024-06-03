@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1166px;
+    margin: 0 auto;
+}
+
+/* ------------------navbar :start --------------*/
+nav .Navwrapper {
+    display: flex;
+    /* image r button pasha pashi anse */
+
+    justify-content: space-between;
+    /* logo r button re 2 pashe nia gese */
+    align-items: center;  /* aita logo r button gula ak line aa korse */
+
+}
+
+/* nav .Navwrapper  img{
+    background-color: black;
+} */
+
+nav .Navwrapper ul li {
+    display: inline-block;
+    /* button pasha pashi anse and bullet soraise*/
+    margin-left: 100px;   /* butoon gula r modhe space dewar jonno*/
+}
+
+nav .Navwrapper ul li a {
+    text-decoration: none;
+    /* buton r nicher dag sorya dise */
+    color: #203220;
+    /* position: relative; */
+}
+
+nav .Navwrapper ul li a::after {
+    content: '';
+    width: 50%;
+    height: 3px;
+    background: #f6762f;
+    bottom: 0;
+    left: 0;
+
+}
+nav .Navwrapper ul li a:hover{
+    font-weight: 600;
+    
+}
